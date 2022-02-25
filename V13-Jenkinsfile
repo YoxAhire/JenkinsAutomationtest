@@ -6,7 +6,7 @@ pipeline {
 	stages {
 	    stage('Git CheckOut') {
 		    steps {
-			   git branch: 'main', credentialsId: 'f4d8335217044ab08932442d6f78ea18', url: 'https://github.com/logicopslab/WebAppForJenkins.git'
+			   git branch: 'main', credentialsId: 'f4d8335217044ab08932442d6f78ea18', url: 'https://github.com/YoxAhire/JenkinsAutomationtest.git'
 			}
 		}
         stage('Clean and Install') {
